@@ -2,7 +2,7 @@ import React from 'react';
 
 const Property = ({ property }) => {
     return <div className="bg-white m-4 border rounded-lg overflow-hidden">
-        <img src={`${property.imageUrl}&${Math.random()}`} alt={property.imageAlt} />
+        <img className="sm:w-full sm:object-cover sm:object-center" src={`${property.imageUrl}&${Math.random()}`} alt={property.imageAlt} />
         <div className="p-6">
             <div className="text-gray-600 text-xs uppercase font-semibold tracking-wide">
                 {property.beds} beds &bull; {property.baths} baths
