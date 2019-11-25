@@ -2,7 +2,7 @@ import React from 'react';
 import { Property } from './Property';
 
 const property = {
-    imageUrl: "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+    imageUrl: `https://source.unsplash.com/400x300/?home`,
     imageAlt: "Rear view of modern home with pool",
     beds: 3,
     baths: 3,
