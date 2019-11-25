@@ -14,7 +14,7 @@ const Property = ({ property }) => {
             </div>
             <div className="mt-4">
                 <span className="text-teal-600 font-semibold">{property.rating}/5 stars</span>
-                <span className="text-gray-600 text-sm"> (base on {property.reviewCount} reviews)</span>
+                <span className="text-gray-600 text-sm"> (based on {property.reviewCount} reviews)</span>
             </div>
         </div>
     </div>
